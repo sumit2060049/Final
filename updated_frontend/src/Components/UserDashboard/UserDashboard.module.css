@@ -1,0 +1,103 @@
+/* UserDashboard.css */
+
+.dashboard_container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.user_info {
+  background-color: #c4d0e1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user_info h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  /* position: absolute; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user_info p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.training_plans {
+  background-color: #f9f9f9;
+  padding: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.training_plans h2 {
+  text-align: center;
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.training_plans ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.training_plans li {
+  margin-bottom: 10px;
+}
+
+.training_module {
+  background-color: #c4d0e1;
+  padding: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.training_module h2 {
+  text-align: center;
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.training_module ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.training_module li {
+  margin-bottom: 10px;
+}
+
+.performance_dashboard {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.performance_dashboard h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.report_dashboard {
+  background-color: #c4d0e1;
+}
+
+.report_dashboard h2 {
+  text-align: center;
+}
+
+.but {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  color: #fff;
+  cursor: pointer;
+}

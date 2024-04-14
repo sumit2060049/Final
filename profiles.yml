@@ -1,0 +1,49 @@
+assesment:
+  outputs:
+    dev:
+      database: master
+      driver: ODBC Driver 18 for SQL Server
+      encrypt: false
+      port: 1433
+      schema: dbt
+      server: DESKTOP-A4AE800
+      type: sqlserver
+      windows_login: true
+  target: dev
+e_commerce:
+  outputs:
+    dev:
+      database: master
+      driver: ODBC Driver 18 for SQL Server
+      encrypt: false
+      port: 1433
+      schema: dbt
+      server: DESKTOP-A4AE800
+      type: sqlserver
+      windows_login: true
+  target: dev
+project:
+  outputs:
+    dev:
+      account: oq86887.central-india.azure
+      database: FINAL_PROJECT
+      password: Mrsumit45@
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: SUMIT45
+      warehouse: COMPUTE_WH
+  target: dev
+training:
+  outputs:
+    dev:
+      database: master
+      driver: ODBC Driver 18 for SQL Server
+      encrypt: false
+      port: 1433
+      schema: dbt
+      server: DESKTOP-A4AE800
+      type: sqlserver
+      windows_login: true
+  target: dev

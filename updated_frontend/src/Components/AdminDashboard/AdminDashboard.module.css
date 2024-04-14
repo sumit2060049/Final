@@ -1,0 +1,65 @@
+/* AdminDashboard.css */
+
+.admin_dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin_dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin_dashboard h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.admin_dashboard p {
+  margin-bottom: 5px;
+}
+
+.admin_dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin_dashboard th,
+.admin_dashboard td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin_dashboard th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+.butnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background: #0CBABA; */
+  background-image: linear-gradient(to right, #0cbaba, #380036);
+
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  margin: 5px;
+  background: transparent;
+  border: none;
+}
+.nav {
+  font-size: large;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+}

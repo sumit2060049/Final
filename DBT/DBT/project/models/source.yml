@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: sumit_etms
+    database: FINAL_PROJECT
+    schema: RAW
+    tables:
+      - name: USER
+      - name: SUBROLE
+      - name: TRAININGAMOUNT
+      - name: TRAININGASSESSMENT
+      - name: TRAININGCATEGORY
+      - name: TRAININGMODULE
+      - name: TRAININGPLAN
+      - name: USERTRAININGPROGRESS
+      - name: REPORT

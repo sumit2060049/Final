@@ -1,0 +1,25 @@
+.butnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background: #0CBABA; */
+  background-image: linear-gradient(to right, #0cbaba, #380036);
+
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.nav {
+  font-size: large;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+}
+
+.t:hover {
+  color: #0056b3;
+}
+
+.active {
+  color: #0056b3;
+}

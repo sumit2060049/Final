@@ -1,0 +1,99 @@
+/* AddCategoryForm.css */
+.tracate {
+  margin-top: 20px;
+}
+
+/* .tracate h2{
+text-align: center;
+font-size: 34px;
+z-index: 1;
+} */
+
+.form_container {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* background-color: #c4d0e1; */
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  /* margin-bottom: 10px; */
+}
+
+input {
+  flex: 1;
+}
+
+.form_container label {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.form_container input[type='text'] {
+  height: 20px;
+  /* width: 400px; */
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  border: 1px solid #797979;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  /* background-color: white; */
+  color: #797979;
+  outline: none;
+}
+
+.form_container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_container button:hover {
+  background-color: #0056b3;
+}
+
+.categories {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ccc;
+  max-width: 800px;
+  border-radius: 5px;
+  /* padding: 10px; */
+}
+/* .butnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background: #0CBABA; */
+/*background-image: linear-gradient(to right ,#0CBABA,#380036 );
+
+    padding: 20px;
+    border-radius: 5px;
+}*/
+
+/*.nav{
+  font-size: large;
+  font-weight:bold;
+  background: transparent;
+  cursor: pointer;
+}
+
+.t:hover{
+  color: #0056b3;
+}
+
+.active{
+  color: #0056b3;
+} */

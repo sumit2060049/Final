@@ -1,0 +1,67 @@
+/* AddModuleForm.css */
+.tramod {
+  margin-top: 20px;
+}
+.form_container {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  /* margin-bottom: 10px; */
+}
+
+input {
+  flex: 1;
+}
+
+.form_container label {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.form_container input[type='text'],
+.form_container input[type='date'],
+.form_container input[type='time'],
+.form_container select {
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  border: 1px solid #797979;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  /* background-color: white; */
+  color: #797979;
+  outline: none;
+}
+
+.form_container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_container button:hover {
+  background-color: #0056b3;
+}
+
+.module {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ccc;
+  max-width: 800px;
+  border-radius: 5px;
+  /* padding: 10px; */
+}
